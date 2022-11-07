@@ -64,10 +64,19 @@ input[type="text"]{
 
 
 /* Give both <p>'s inside the 3rd <div> a #73fa80 color background*/
+div div div {
+    p{
+        background-color: #73fa80;
+    }
+}
 
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px salmon border*/
-
+div div div {
+    p p{
+        border: salmon 5px solid
+    }
+}
 
 /* Make the <em> in the 3rd <div> element salmon and 20px font(font-size:20px)*/
 
