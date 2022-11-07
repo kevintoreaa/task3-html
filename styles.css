@@ -92,21 +92,21 @@ div div div {
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
 
-input:checked{
+input:checked {
     margin-left: 50px;
 }
 
 
 /* Make the <label> elements all UPPERCASE without changing the HTML*/
 
-*{
+* {
     text-transform: uppercase;
 }
 
 /*Make the first letter of the element with id 'special' #73FA80 color and 100px font size(font-size: 100)*/
 
-#special:nth-of-type(1){
-    color: #73fa80; 
+#special:nth-of-type(1) {
+    color: #73fa80;
     font-size: 100;
 }
 
@@ -115,3 +115,7 @@ input:checked{
 
 
 /*Make the <a> element's that have been visited salmon */
+
+a:visited {
+    color: salmon
+}
